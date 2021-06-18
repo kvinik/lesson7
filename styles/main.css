@@ -130,6 +130,24 @@ h2{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+.ufo{
+    position: absolute;
+    background-image: url(../images/ufo.png);
+    width: 37px;
+    height: 35px;
+    background-size: contain;
+    animation-name: ufo;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+
+}
+@keyframes ufo{
+    0% { 	transform: rotate(0deg) translateX(1050px) rotate(0deg); 
+    }
+	100%  {  transform: rotate(360deg) translateX(1050px) rotate(-360deg); 
+    }
+}
 @keyframes astroman{
     0%{
       left: 0px;
